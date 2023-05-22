@@ -1,0 +1,173 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void GameManager::Awake()
+extern void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F (void);
+// 0x00000002 System.Void GameManager::ResumeGame()
+extern void GameManager_ResumeGame_m4E9452E3FE77FD421C8178B1BFE541BA22FAC993 (void);
+// 0x00000003 System.Void GameManager::PauseGame()
+extern void GameManager_PauseGame_m71EF0E0188E18168F8B12288BA3363109B0C5D5A (void);
+// 0x00000004 System.Void GameManager::ShowAd()
+extern void GameManager_ShowAd_m4D96CB08E0A9696CF070FFC0AB5DD25A05358E36 (void);
+// 0x00000005 System.Void GameManager::.ctor()
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+// 0x00000006 System.Void GameMonetize::InitApi(System.String)
+extern void GameMonetize_InitApi_mD4F7DA493ECBB664A15A88410FFE052E39BBFFD5 (void);
+// 0x00000007 System.Void GameMonetize::ShowBanner()
+extern void GameMonetize_ShowBanner_m6D939E28486985630DE4C9426243C19DC8135E6F (void);
+// 0x00000008 System.Void GameMonetize::Awake()
+extern void GameMonetize_Awake_m60AC448A1C0C30246FAD82B3E75DD85320FFD52B (void);
+// 0x00000009 System.Void GameMonetize::Init()
+extern void GameMonetize_Init_m6507A16F40D0FBA80417E7BC0CF634D5793C5485 (void);
+// 0x0000000A System.Void GameMonetize::ShowAd()
+extern void GameMonetize_ShowAd_mC61EE18B9E3B7FBF0F4098A2FE53B20B948B709E (void);
+// 0x0000000B System.Void GameMonetize::ResumeGame()
+extern void GameMonetize_ResumeGame_m8FA3C44AAE09016AE4904531BE4F9AAF985463D6 (void);
+// 0x0000000C System.Void GameMonetize::PauseGame()
+extern void GameMonetize_PauseGame_mF68C6C33A69F0D8BE002201A32E5D33A46BBC397 (void);
+// 0x0000000D System.Void GameMonetize::.ctor()
+extern void GameMonetize__ctor_mBA85D8B5DE7BACC719DCA90809C175AD81E67513 (void);
+// 0x0000000E System.Void Board::Start()
+extern void Board_Start_mC0218DF7CEDE96BC18A9523A9A290041B16F5126 (void);
+// 0x0000000F System.Void Board::Update()
+extern void Board_Update_mB60C118BEBD2F9AE1FAFE662EB0A070B183D7A6E (void);
+// 0x00000010 System.Void Board::HitBox(Box)
+extern void Board_HitBox_mBB9F0071A73D9595C30D7296F42EA0D3E8E44913 (void);
+// 0x00000011 System.Boolean Board::CheckIfWin()
+extern void Board_CheckIfWin_m83DF80DE9F54425E3512DD052914188F3DD2FA3D (void);
+// 0x00000012 System.Boolean Board::AreBoxesMatched(System.Int32,System.Int32,System.Int32)
+extern void Board_AreBoxesMatched_m00D5EC958FFCFB7EA8A9B356B3C53978F59F10B2 (void);
+// 0x00000013 System.Void Board::DrawLine(System.Int32,System.Int32)
+extern void Board_DrawLine_mB49790940C4FD6573CD16B6A751E5FED1B0B5B2D (void);
+// 0x00000014 System.Void Board::SwitchPlayer()
+extern void Board_SwitchPlayer_m2031C264FCE9040E8BA496FD592B576BDF6A878B (void);
+// 0x00000015 UnityEngine.Color Board::GetColor()
+extern void Board_GetColor_m702035B1C13446B2B15C0FC0585741CE1736A991 (void);
+// 0x00000016 UnityEngine.Sprite Board::GetSprite()
+extern void Board_GetSprite_m691FDC8D8DD3E12A105EF30D3BC828DD6D508AC7 (void);
+// 0x00000017 System.Void Board::.ctor()
+extern void Board__ctor_mD7649814C6B9E7EF83936BA430C66B0824FE3B5E (void);
+// 0x00000018 System.Void Box::Awake()
+extern void Box_Awake_mF0AE2F63DED25A682E3B1B4B662ED36AF22C3EB2 (void);
+// 0x00000019 System.Void Box::SetAsMarked(UnityEngine.Sprite,Mark,UnityEngine.Color)
+extern void Box_SetAsMarked_m7ED127E9DA865E0BA3C2133C3ADC559FF574596F (void);
+// 0x0000001A System.Void Box::.ctor()
+extern void Box__ctor_mCC2DD23CE1C959979DD428910F025C62F34F5EC0 (void);
+// 0x0000001B System.Void WinUI::Start()
+extern void WinUI_Start_m7C6779417DC0C1C18E3C4D70FAE7D7A4ECF37CB7 (void);
+// 0x0000001C System.Void WinUI::OnWinEvent(Mark,UnityEngine.Color)
+extern void WinUI_OnWinEvent_m272BC5D9E40065C11D4B1CED803CFE1318FF2A9E (void);
+// 0x0000001D System.Void WinUI::OnDestroy()
+extern void WinUI_OnDestroy_m996EC8BC372B1F6DA287200CDDA5193FA21D2E4F (void);
+// 0x0000001E System.Void WinUI::.ctor()
+extern void WinUI__ctor_m062CC3C33E0A79DEFD2B9A31A0439082D98EC1E2 (void);
+// 0x0000001F System.Void WinUI/<>c::.cctor()
+extern void U3CU3Ec__cctor_mA88F8D321509DC6C3DC8B1ED25DCB608EE291660 (void);
+// 0x00000020 System.Void WinUI/<>c::.ctor()
+extern void U3CU3Ec__ctor_m983C609B383621BF3C7396D8BF9D9A328D9811B6 (void);
+// 0x00000021 System.Void WinUI/<>c::<Start>b__4_0()
+extern void U3CU3Ec_U3CStartU3Eb__4_0_mEDAFCE110FA48EF3BDBF6206C6FE39D9AF6854FC (void);
+static Il2CppMethodPointer s_methodPointers[33] = 
+{
+	GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F,
+	GameManager_ResumeGame_m4E9452E3FE77FD421C8178B1BFE541BA22FAC993,
+	GameManager_PauseGame_m71EF0E0188E18168F8B12288BA3363109B0C5D5A,
+	GameManager_ShowAd_m4D96CB08E0A9696CF070FFC0AB5DD25A05358E36,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	GameMonetize_InitApi_mD4F7DA493ECBB664A15A88410FFE052E39BBFFD5,
+	GameMonetize_ShowBanner_m6D939E28486985630DE4C9426243C19DC8135E6F,
+	GameMonetize_Awake_m60AC448A1C0C30246FAD82B3E75DD85320FFD52B,
+	GameMonetize_Init_m6507A16F40D0FBA80417E7BC0CF634D5793C5485,
+	GameMonetize_ShowAd_mC61EE18B9E3B7FBF0F4098A2FE53B20B948B709E,
+	GameMonetize_ResumeGame_m8FA3C44AAE09016AE4904531BE4F9AAF985463D6,
+	GameMonetize_PauseGame_mF68C6C33A69F0D8BE002201A32E5D33A46BBC397,
+	GameMonetize__ctor_mBA85D8B5DE7BACC719DCA90809C175AD81E67513,
+	Board_Start_mC0218DF7CEDE96BC18A9523A9A290041B16F5126,
+	Board_Update_mB60C118BEBD2F9AE1FAFE662EB0A070B183D7A6E,
+	Board_HitBox_mBB9F0071A73D9595C30D7296F42EA0D3E8E44913,
+	Board_CheckIfWin_m83DF80DE9F54425E3512DD052914188F3DD2FA3D,
+	Board_AreBoxesMatched_m00D5EC958FFCFB7EA8A9B356B3C53978F59F10B2,
+	Board_DrawLine_mB49790940C4FD6573CD16B6A751E5FED1B0B5B2D,
+	Board_SwitchPlayer_m2031C264FCE9040E8BA496FD592B576BDF6A878B,
+	Board_GetColor_m702035B1C13446B2B15C0FC0585741CE1736A991,
+	Board_GetSprite_m691FDC8D8DD3E12A105EF30D3BC828DD6D508AC7,
+	Board__ctor_mD7649814C6B9E7EF83936BA430C66B0824FE3B5E,
+	Box_Awake_mF0AE2F63DED25A682E3B1B4B662ED36AF22C3EB2,
+	Box_SetAsMarked_m7ED127E9DA865E0BA3C2133C3ADC559FF574596F,
+	Box__ctor_mCC2DD23CE1C959979DD428910F025C62F34F5EC0,
+	WinUI_Start_m7C6779417DC0C1C18E3C4D70FAE7D7A4ECF37CB7,
+	WinUI_OnWinEvent_m272BC5D9E40065C11D4B1CED803CFE1318FF2A9E,
+	WinUI_OnDestroy_m996EC8BC372B1F6DA287200CDDA5193FA21D2E4F,
+	WinUI__ctor_m062CC3C33E0A79DEFD2B9A31A0439082D98EC1E2,
+	U3CU3Ec__cctor_mA88F8D321509DC6C3DC8B1ED25DCB608EE291660,
+	U3CU3Ec__ctor_m983C609B383621BF3C7396D8BF9D9A328D9811B6,
+	U3CU3Ec_U3CStartU3Eb__4_0_mEDAFCE110FA48EF3BDBF6206C6FE39D9AF6854FC,
+};
+static const int32_t s_InvokerIndices[33] = 
+{
+	3236,
+	3236,
+	3236,
+	3236,
+	3236,
+	4800,
+	4894,
+	3236,
+	3236,
+	3236,
+	3236,
+	3236,
+	3236,
+	3236,
+	3236,
+	2616,
+	3184,
+	653,
+	1337,
+	3236,
+	3098,
+	3154,
+	3236,
+	3236,
+	780,
+	3236,
+	3236,
+	1312,
+	3236,
+	3236,
+	4894,
+	3236,
+	3236,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	33,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
